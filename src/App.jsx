@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import BentoGrid from "./components/BentoGrid"
+import AIChat from "./components/AIChat"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 
@@ -15,6 +16,7 @@ function App() {
         </div>
         <Hero />
         <BentoGrid />
+        <AIChat />
         <Contact />
       </main>
       <Footer />
