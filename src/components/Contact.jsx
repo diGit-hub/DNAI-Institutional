@@ -15,7 +15,7 @@ function Contact() {
         <form className="max-w-md mx-auto relative">
           <div className="relative group">
             <input
-              className="w-full pl-6 pr-48 py-5 rounded-full bg-surface-container-low border-none focus:ring-2 focus:ring-on-tertiary-container/20 text-on-primary-fixed placeholder:text-on-secondary-container/50 font-medium transition-all"
+              className="w-full pl-6 pr-24 py-5 rounded-full bg-white/80 border border-white/20 focus:ring-2 focus:ring-on-tertiary-container/20 text-on-primary-fixed placeholder:text-on-secondary-container/50 font-medium transition-all"
               placeholder="Seu e-mail corporativo ou pessoal"
               type="email"
               name="email"
@@ -23,10 +23,10 @@ function Contact() {
               autoComplete="email"
             />
             <button
-              className="absolute right-2 top-2 bottom-2 px-8 rounded-full bg-primary-container text-on-primary font-bold text-sm hover:scale-105 active:scale-95 transition-all py-3 px-6"
+              className="absolute right-3 top-3 bottom-3 px-5 rounded-full bg-primary-container text-on-primary font-bold text-sm hover:scale-105 active:scale-95 transition-all"
               type="submit"
             >
-              Entrar em Contato
+              Enviar
             </button>
           </div>
           <p className="text-[10px] font-label uppercase tracking-[0.2em] text-on-secondary-container mt-6 opacity-60">

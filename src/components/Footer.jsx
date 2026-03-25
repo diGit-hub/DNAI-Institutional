@@ -5,7 +5,7 @@ function Footer() {
         <div className="space-y-2">
           <span className="text-lg font-bold text-slate-900 dark:text-slate-50">DNAI</span>
           <p className="text-slate-600 dark:text-slate-400 font-manrope text-sm tracking-wide">
-            © 2024 DNAI. Startup em desenvolvimento tecnológico para saúde.
+            © 2026 DNAI. Startup em desenvolvimento tecnológico para saúde.
           </p>
         </div>
         <div className="flex gap-8">

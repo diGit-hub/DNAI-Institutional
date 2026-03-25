@@ -55,7 +55,7 @@ function AIChat() {
             <input
               type="text"
               placeholder="Digite uma mensagem..."
-              className="flex-1 bg-surface-container-low rounded-full px-4 py-3 text-sm text-on-primary-fixed placeholder:text-on-surface-variant/50 border-none outline-none"
+              className="flex-1 bg-white/80 rounded-full px-4 py-3 text-sm text-on-primary-fixed placeholder:text-on-surface-variant/50 border border-white/20 outline-none"
             />
             <button className="bg-primary-container text-white w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
               <span className="material-symbols-outlined text-sm">send</span>

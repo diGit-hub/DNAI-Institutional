@@ -2,7 +2,7 @@ function Hero() {
   return (
     <section className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
       <div className="space-y-8">
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface-container-high border border-outline-variant/20">
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/80 border border-white/20">
           <span className="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></span>
           <span className="text-xs font-label uppercase tracking-widest text-on-primary-fixed font-bold">
             Em Breve
@@ -20,11 +20,17 @@ function Hero() {
           colaboradores para moldar esta jornada.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 pt-4">
-          <button className="px-8 py-4 bg-primary-container text-on-primary font-bold rounded-full shadow-lg shadow-primary-container/20 hover:scale-105 transition-transform py-3 px-6">
+          <button 
+            className="px-8 py-4 bg-primary-container text-on-primary font-bold rounded-full shadow-lg shadow-primary-container/20 hover:scale-105 transition-transform py-3 px-6"
+            onClick={() => document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' })}
+          >
             Entrar em Contato
           </button>
-          <button className="px-8 py-4 bg-surface-container-lowest text-on-primary-fixed font-bold rounded-full border border-outline-variant/10 hover:bg-surface-container-low transition-colors">
-            Ver a Ciência
+          <button 
+            className="px-8 py-4 bg-surface-container-lowest text-on-primary-fixed font-bold rounded-full border border-outline-variant/10 hover:bg-surface-container-low transition-colors"
+            onClick={() => document.getElementById('chat')?.scrollIntoView({ behavior: 'smooth' })}
+          >
+             Chat IA
           </button>
         </div>
       </div>
@@ -39,16 +45,16 @@ function Hero() {
           />
         </div>
         <div className="absolute -bottom-6 right-12 glass px-6 py-4 rounded-2xl shadow-xl flex items-center gap-4">
-          <div className="w-10 h-10 rounded-full bg-green-500/20 flex items-center justify-center">
-            <span className="material-symbols-outlined text-green-700 text-sm">
-              auto_awesome
+          <div className="w-10 h-10 rounded-full bg-on-tertiary-container/20 flex items-center justify-center">
+            <span className="material-symbols-outlined text-on-tertiary-container text-sm">
+              support_agent
             </span>
           </div>
           <div>
             <p className="text-[10px] font-label uppercase tracking-wider text-on-secondary-container">
-              Desenvolvimento
+              Powered by IA
             </p>
-            <p className="font-bold text-on-primary-fixed">Startup em Early Stage</p>
+            <p className="font-bold text-on-primary-fixed">Assistente disponível 24h</p>
           </div>
         </div>
       </div>
