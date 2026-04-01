@@ -11,7 +11,7 @@ function AIChat() {
         </p>
       </div>
 
-      <div className="glass rounded-3xl p-6 md:p-8">
+      <div className="glass rounded-3xl p-4 sm:p-6 md:p-8">
         <div className="space-y-5">
           <div className="flex gap-3">
             <div className="w-8 h-8 rounded-full bg-primary-container flex items-center justify-center flex-shrink-0">
@@ -51,11 +51,11 @@ function AIChat() {
         </div>
 
         <div className="mt-6 pt-4 border-t border-outline-variant/20">
-          <div className="flex gap-2 items-center">
+          <div className="flex gap-2 items-center w-full">
             <input
               type="text"
               placeholder="Digite uma mensagem..."
-              className="flex-1 bg-white/80 rounded-full px-4 py-3 text-sm text-on-primary-fixed placeholder:text-on-surface-variant/50 border border-white/20 outline-none"
+              className="min-w-0 flex-1 bg-white/80 rounded-full px-4 py-3 text-sm text-on-primary-fixed placeholder:text-on-surface-variant/50 border border-white/20 outline-none"
             />
             <button className="bg-primary-container text-white w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
               <span className="material-symbols-outlined text-sm">send</span>
