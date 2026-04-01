@@ -36,7 +36,7 @@ function Hero() {
       </div>
 
       <div className="relative">
-        <div className="glass rounded-[3rem] p-12 aspect-square flex items-center justify-center relative shadow-2xl overflow-hidden">
+        <div className="glass rounded-[3rem] p-8 md:p-12 aspect-square flex items-center justify-center relative shadow-2xl overflow-hidden">
           <div className="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
           <img
             alt="DNAI Health AI Assistant"
@@ -44,17 +44,17 @@ function Hero() {
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuDw9-WdUabHtmjV9wMjnUU5e915Nf19f6A5rtXp9JpW-jicsAy4l7lSyKxdBDLqUXvRlwgqY0r3O6PUIRrteVVcZkBZJFEg0ViK8Ny-IIfKmquiY3qxIvNycULZh4xQNodHwcCPZLMnvNPdrico0qLtjv-XreDaYUTFFS11VZpo7U6PePYvh0EHgXQyezsTydiiyQ2xxwPDFVwqSVul_Q3YZdbW3gQ9utO_xbVKvZe6WhsjWcnYyAx-KV001NWiwzy2nlskwPYWKqYx"
           />
         </div>
-        <div className="absolute -bottom-6 right-12 bg-white px-6 py-4 rounded-2xl shadow-xl flex items-center gap-4">
-          <div className="w-10 h-10 rounded-full bg-on-tertiary-container/20 flex items-center justify-center">
-            <span className="material-symbols-outlined text-on-tertiary-container text-sm">
+        <div className="absolute -bottom-5 right-12 bg-white px-3 py-2 md:px-6 md:py-4 rounded-lg md:rounded-2xl shadow-xl flex items-center gap-2 md:gap-4">
+          <div className="w-7 h-7 md:w-10 md:h-10 rounded-full bg-on-tertiary-container/20 flex items-center justify-center">
+            <span className="material-symbols-outlined text-on-tertiary-container text-[10px] md:text-sm">
               support_agent
             </span>
           </div>
           <div>
-            <p className="text-[10px] font-label uppercase tracking-wider text-on-secondary-container">
+            <p className="text-[7px] md:text-[10px] font-label uppercase tracking-wider text-on-secondary-container">
               Powered by AI
             </p>
-            <p className="font-bold text-on-primary-fixed">Assistente disponível 24h</p>
+            <p className="text-[10px] md:text-sm font-bold text-on-primary-fixed">Assistente disponível 24h</p>
           </div>
         </div>
       </div>
