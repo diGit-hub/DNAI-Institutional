@@ -13,9 +13,9 @@ function Contact() {
           para co-criar a DNAI. Envie seu contato e vamos construir o futuro juntos.
         </p>
         <form className="max-w-md mx-auto relative">
-          <div className="relative group">
+          <div className="max-md:flex max-md:flex-col max-md:gap-3 relative group">
             <input
-              className="w-full pl-6 pr-24 py-5 rounded-full bg-white/80 border border-white/20 focus:ring-2 focus:ring-on-tertiary-container/20 text-on-primary-fixed placeholder:text-on-secondary-container/50 font-medium transition-all"
+              className="w-full pl-6 max-md:pr-6 md:pr-24 py-5 rounded-full bg-white/80 border border-white/20 focus:ring-2 focus:ring-on-tertiary-container/20 text-on-primary-fixed placeholder:text-on-secondary-container/50 font-medium transition-all"
               placeholder="Seu e-mail corporativo ou pessoal"
               type="email"
               name="email"
@@ -23,7 +23,7 @@ function Contact() {
               autoComplete="email"
             />
             <button
-              className="absolute right-3 top-3 bottom-3 px-5 rounded-full bg-primary-container text-on-primary font-bold text-sm hover:scale-105 active:scale-95 transition-all"
+              className="max-md:w-full max-md:py-5 max-md:static absolute right-3 top-3 bottom-3 px-5 rounded-full bg-primary-container text-on-primary font-bold text-sm hover:scale-105 active:scale-95 transition-all"
               type="submit"
             >
               Enviar
