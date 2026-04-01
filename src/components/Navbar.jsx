@@ -44,8 +44,8 @@ function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 flex justify-center items-center w-full">
-      <div className="bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl font-manrope font-semibold tracking-tight rounded-full mt-6 mx-auto max-w-fit px-6 py-3 border border-white/20 dark:border-slate-700/30 shadow-[0_8px_32px_0_rgba(11,28,46,0.05)] flex items-center gap-8">
-        <span className="text-xl font-bold text-slate-900 dark:text-slate-50 mr-4">DNAI</span>
+      <div className="bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl font-manrope font-semibold tracking-tight rounded-full mt-6 mx-auto max-w-fit px-6 py-3 border border-white/20 dark:border-slate-700/30 shadow-[0_8px_32px_0_rgba(11,28,46,0.05)] flex items-center md:gap-8">
+        <span className="text-xl font-bold text-slate-900 dark:text-slate-50">DNAI</span>
         <div className="hidden md:flex gap-6">
           {navItems.map((item) => (
             <a
