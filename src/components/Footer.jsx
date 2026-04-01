@@ -8,7 +8,7 @@ function Footer() {
             © 2026 DNAI. Startup em desenvolvimento tecnológico para saúde.
           </p>
         </div>
-        <div className="flex gap-8">
+        <div className="flex flex-wrap justify-center gap-4 md:gap-8">
           <a
             className="text-slate-500 dark:text-slate-400 font-manrope text-sm tracking-wide hover:text-slate-900 dark:hover:text-slate-50 underline-offset-4 hover:underline transition-all"
             href="#"
